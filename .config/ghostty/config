@@ -1,0 +1,11 @@
+# ==============================================================================
+# GHOSTTY MAIN CONFIGURATION
+# Modularized following Omarchy's style for better maintainability
+# ==============================================================================
+
+# Include Omarchy Theme colors
+config-file = /home/codeswot/.config/omarchy/themes/aether/ghostty.conf
+
+# Place any additional custom Ghostty configurations below
+# font-family = Iosevka
+# window-padding-x = 2

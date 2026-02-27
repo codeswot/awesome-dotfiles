@@ -1,0 +1,119 @@
+/* Clean Aether Theme for Wofi */
+
+* {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+window {
+    margin: 5px;
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    opacity: 0.99;
+}
+
+#inner-box {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: #e2e3e3;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#outer-box {
+    margin: 0px;
+    padding: 15px;
+    background-color: #171a18;
+    border-radius: 15px;
+    border: 2px solid #7dd2b8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#scroll {
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+#input {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #6b8071;
+    border-radius: 10px;
+    color: #e2e3e3;
+    font-weight: 600;
+    background-color: #171a18;
+    background-image: none !important;
+    box-shadow: none !important;
+    outline: none;
+}
+
+#input:focus {
+    border: 1px solid #7dd2b8;
+}
+
+/* Aggressive Icon Hiding */
+#input>image,
+#input image,
+#input icon,
+#input .icon,
+#input .search,
+#input .primary,
+#input .secondary,
+entry image,
+entry>image {
+    opacity: 0 !important;
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-image: none !important;
+    -gtk-icon-source: none !important;
+}
+
+entry {
+    -gtk-icon-theme: "none";
+}
+
+#text {
+    color: #e2e3e3;
+    font-weight: 500;
+    margin: 0px;
+}
+
+#entry {
+    margin: 2px 0px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: transparent;
+    min-height: 48px;
+}
+
+#entry:selected {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px dashed #7dd2b8;
+}
+
+#entry:selected #text {
+    color: #7dd2b8;
+}
+
+#entry:hover {
+    background-color: #b8c082;
+    border-radius: 8px;
+    border: 1px dashed #7dd2b8;
+}
+
+#img {
+    margin-right: 12px;
+    padding: 2px;
+}
+
+#img:selected {
+    background-color: transparent;
+}

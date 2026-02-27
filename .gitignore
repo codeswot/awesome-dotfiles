@@ -1,0 +1,45 @@
+# Avoid tracking massive or sensitive home directory junk
+*
+
+# Explicitly allow the "Rice" components
+!/.config/
+!/.config/hypr/
+!/.config/hypr/**
+!/.config/waybar/
+!/.config/waybar/**
+!/.config/wofi/
+!/.config/wofi/**
+!/.config/dunst/
+!/.config/dunst/**
+!/.config/omarchy/
+!/.config/omarchy/**
+!/.config/ghostty/
+!/.config/ghostty/**
+
+# Allow SDDM theme backup
+!/sddm-aether/
+!/sddm-aether/**
+
+# Allow shell configs
+!/.zshrc
+!/.p10k.zsh
+!/.bashrc
+
+# Allow documentation and scripts
+!/README.md
+!/install.sh
+!/.gitignore
+
+# Exclude sensitive/junk within .config
+.config/chromium/
+.config/google-chrome/
+.config/dconf/
+.config/pulse/
+.config/session/
+.config/vlc/
+.config/discord/
+.config/Code/
+**/*.log
+**/*.tmp
+**/*.swp
+**/.DS_Store
