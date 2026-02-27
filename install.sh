@@ -17,7 +17,8 @@ sudo pacman -S --needed \
     sddm qt5-graphicaleffects qt5-quickcontrols2 qt5-svg \
     ttf-jetbrains-mono-nerd ttf-commit-mono-nerd \
     network-manager-applet \
-    libnotify
+    libnotify \
+    grim slurp wl-clipboard
 
 # 2. Oh My Zsh and Plugins
 if [ ! -d "$HOME/.oh-my-zsh" ]; then

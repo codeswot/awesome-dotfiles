@@ -73,7 +73,8 @@ else
     # PASSWORD PROMPT: Locked icon in prompt, height 200.
     # Wofi doesn't show the prompt icon if it's too long, so keep it clean.
     # Using small width for a modal feel.
-    PASS=$(wofi --show dmenu --style ~/.config/wofi/style.css --prompt "󰌾 Password" --password --width 400 --height 150 --lines 0 --cache-file /dev/null --conf /dev/null)
+    # Switch to direct dmenu mode for password selection to bypass wofi search entry behaviors
+    PASS=$(wofi --dmenu --password --style ~/.config/wofi/style-password.css --prompt "󰌾 Password" --width 400 --height 100 --cache-file /dev/null --conf /dev/null)
     
     if [ -z "$PASS" ]; then exit 0; fi
     iwctl station "$STATION" connect "$SSID" --passphrase "$PASS"

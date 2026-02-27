@@ -20,6 +20,10 @@
 !/sddm-aether/
 !/sddm-aether/**
 
+# Allow screenshots/assets
+!/assets/
+!/assets/**
+
 # Allow shell configs
 !/.zshrc
 !/.p10k.zsh

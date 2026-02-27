@@ -2,6 +2,18 @@
 
 This is the ultimate home for my personal desktop environment—a high-fidelity, minimal, and premium setup built for Hyprland. Optimized for the Dell XPS 15 (High DPI) but designed to feel premium on any hardware.
 
+## 📸 Gallery
+<div align="center">
+  <img src="assets/2026-02-27_18-40-40.png" width="800">
+  <br>
+  <em>Main Workspace & Desktop View</em>
+  <br><br>
+  <img src="assets/2026-02-27_18-38-46.png" width="400">
+  <img src="assets/2026-02-27_18-41-07.png" width="400">
+  <br>
+  <em>Application Menus & System Components</em>
+</div>
+
 
 ## 🌿 Multi-Style Branching
 This repository is designed to grow! While the `master` branch features the refined **Aether** theme, I'll be creating separate branches for different styles:
