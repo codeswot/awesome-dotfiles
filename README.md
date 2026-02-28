@@ -6,6 +6,8 @@ This is the ultimate home for my personal desktop environment—a high-fidelity,
 <div align="center">
   <img src="assets/2026-02-27_18-40-40.png" width="800">
   <br>
+  <img src="assets/2026-02-27_18-34-18.png" width="800">
+  <br>
   <em>Main Workspace & Desktop View</em>
   <br><br>
   <img src="assets/2026-02-27_18-38-46.png" width="400">
