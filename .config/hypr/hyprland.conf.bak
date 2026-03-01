@@ -1,0 +1,26 @@
+# ==============================================================================
+# HYPRLAND MAIN CONFIGURATION
+# Modularized following Omarchy's style for better maintainability
+# ==============================================================================
+
+# 1. Variables and Programs
+source = /home/codeswot/.config/hypr/configs/programs.conf
+
+# 2. Hardware and Displays
+source = /home/codeswot/.config/hypr/configs/monitors.conf
+source = /home/codeswot/.config/hypr/configs/input.conf
+
+# 3. Environment and Autostart
+source = /home/codeswot/.config/hypr/configs/environment.conf
+source = /home/codeswot/.config/hypr/configs/autostart.conf
+
+# 4. Look and Feel
+source = /home/codeswot/.config/hypr/configs/appearance.conf
+
+# 5. Omarchy Theme integration
+# This will override border colors setup in appearance.conf
+source = /home/codeswot/.config/omarchy/themes/aether/hyprland.conf
+
+# 6. System Rules and Keybindings
+source = /home/codeswot/.config/hypr/configs/window_rules.conf
+source = /home/codeswot/.config/hypr/configs/keybinds.conf
